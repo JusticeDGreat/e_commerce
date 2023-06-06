@@ -1,0 +1,1107 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    display: flex;
+    overflow: scroll;
+    position: relative;
+}
+
+div.container{
+    background-color:white;
+    width: 100%;
+    position: relative;   
+}
+
+div.parent{
+    width: 100%;
+}
+
+div.head{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E5E5;
+    position: relative;
+
+}
+
+/* section for head */
+
+
+div.collecthead{
+    margin: 28px auto 0 auto;
+    width: 70%;
+   
+}
+
+/* for the vector images */
+div.vector{
+    position: absolute;
+    width: 190px;
+    height: 180px;
+    right: 0px;
+    top: 250px;
+}
+
+div.vector2, div.vector3, div.vector4, div.vector5{
+    position: absolute;
+   
+}
+
+div.vector2{
+    top: 307px;
+    width: 100px;
+    height: 100px;
+    z-index: 50;
+    left: 0px;
+}
+
+div.vector3{
+    top: 342px;
+    width: 120px;
+    height: 50px;
+    z-index: 110;
+    left: 10px;
+
+}
+
+div.vector4{
+    top: 379px;
+    width: 120px;
+    height: 50px;
+    z-index: 120;
+    left: 0px;
+}
+
+div.vector5{
+    top: 420px;
+    width: 120px;
+    height: 50px;
+    z-index: 120;
+    left: 0px;
+   
+}
+
+
+
+img.vector__image,img.vector__image2, img.vector__image3, img.vector__image4, img.vector__image5{
+width: 100%;
+height: 100%;
+}
+
+
+.head1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+    background-color: #E5E5E5;
+
+}
+div.icon__account{
+    gap: 10px;
+}
+
+div.icon__account, div.account__animate, div.shopping{
+    display: flex;
+    flex-direction: row;
+}
+
+div.account__animate, div.shopping{
+    gap: 0.4rem;  
+}
+
+div.icon, div.shopping__icon, div.search{
+    width: 15px;
+    height: 15px;
+} 
+
+img.animate__image, img.shopping__image, img.search__image{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+div.account, div.shopping__word{
+    font-size: 0.7rem;
+    padding: 0.1rem 0;
+}
+
+
+/* section for navbar */
+
+div.head2{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    padding-top: 1rem;
+    margin-bottom: 50px;
+    
+}
+
+div.navbar{
+    font-size: 0.8rem;
+    
+}
+
+div.navbar:hover{
+    
+    text-decoration: underline;
+    text-decoration-color: purple;
+}
+
+
+div.collect{
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+    z-index: 2;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 350px;
+    
+}
+
+div.collection{
+    width: 40%;
+    margin-top: 2rem;
+   
+}
+
+div.collection__image{
+    width: 55%;
+    position: relative; 
+}
+
+div.picture{
+    width: 300px;
+    height: 300px;
+    z-index: 3;  
+    position: absolute;
+    top: 0px;
+    left:0px;
+    border-radius: 30% 0;
+}
+
+img.picture1{
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 30% 0;
+}
+    
+
+
+div.empty{
+    width: 290px;
+    height: 290px;
+    border: 1px solid grey;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index:1;
+    border-radius: 30% 0px;
+
+}
+p.collection__word{
+    font-size: 2.5rem;
+    margin-bottom: 0.8rem;
+}
+
+p.explore{
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}
+
+p#allproduct{
+    font-weight: bolder;
+}
+
+
+div.collection > div.bag{
+    display: flex;
+    flex-direction: row;
+    width: 35%;
+    padding: 0.7rem;
+    justify-content: space-around;
+    align-content: center;
+    background-color: black;   
+}
+
+div.shoppingbag__image{
+    width: 15px;
+    height: 15px;
+    margin-top: 0.1rem;
+}
+
+img.bag__image{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: white;
+   
+}
+
+div.bag > p.showNow{
+    color: white;
+    font-size: 0.8rem;
+}
+    
+/* section for the brand and images */
+div.filterbox{
+    width: 100%;
+    background-color: white;
+
+}
+div.withGallery{
+    width: 70%;
+    margin: 0 auto;
+}
+
+div.gallery{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+
+div.brand__logo{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+     justify-content: space-between; 
+    padding: 1.6rem 0 1.2rem 0;
+}
+
+
+div.brand__logo > div.logo{
+    width:100px;
+    height: 35px;
+}
+
+div.logo img{
+    display: block;
+    width: 100%;
+    height: 100%;
+   
+   
+}
+
+div.image__gallery{
+    display: flex; 
+    flex-direction: row;
+    gap: 1rem;
+    margin-bottom: 3rem;
+
+}
+
+div.imagebox1{
+    width: 49.5%;
+    height: 318px;
+}
+
+
+div.imagebox1 > img.image7{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+div.imagebox2{
+    width: 49.5%;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+div.imagebox2 > div.imagebox2One,div.imagebox2 > div.imagebox2Two{
+    width: 49.5%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+div.imageOne, div.pic{
+    width: 100%;
+    height:149.5px ;
+}
+
+div.imageOne:hover, div.imagebox1:hover, div.picture:hover{
+    border: 1px solid purple;
+    
+}
+
+
+   
+div.imageOne > img, div.pic > img.photo{
+    display: block;
+    width: 100%;
+    height: 100%;
+
+}
+
+div#design{
+    position: relative;
+}
+
+p.designWord{
+    position: absolute;
+    top: 15px;
+    width: 25%;
+    text-align: center;
+    padding: 0.4rem 0;
+    font-size: 0.6rem;
+
+    background-color: black;
+    color: white;
+}
+
+
+p.popular{
+    position: absolute;
+    top: 610px;
+    left: 165px;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    padding-left: 30px;
+    font-size: 15px;
+    font-weight: bolder;
+    text-transform: uppercase;
+
+}
+
+/* newletter */
+div.newLetter{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+
+/* second navbar */
+div.second__nav{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+div.second__nav1{
+    width: 35%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+}
+
+div.second__nav2{
+    display: flex;
+    flex-direction: row;
+    width: 8%;
+    gap: 0.3rem;
+    align-content: center;
+    background-color: black;
+    padding: 0.1rem;
+    justify-content: center;
+   
+}
+
+div.second__nav2 > p.filter{
+    color: white;
+    font-size: 0.7rem;
+    margin-top: 0.2rem;
+}
+
+div.second__nav2Image{
+    width: 15px;
+    height: 15px;
+    border: 1px solid black;
+    margin-top: 0.2rem;
+    
+    
+}
+
+div.second__nav2Image > img{
+    display: block;
+    width: 100%;
+    height: 100%;
+   
+
+}
+
+ /* section for the gallery2  */
+  div.houseGallery{
+    width: 100%;
+    padding-bottom: 6rem;
+  }
+
+  div.houseGallery > div.picture__One{
+    margin-bottom: 20px;
+  }
+
+ div.houseGallery > div.picture__One,  div.houseGallery > div.picture__two{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+ }
+
+
+  div.photo1, div.photo2, div.photo3, div.photo4, div.photo5, div.photo6,div.photo7, div.photo8{
+    width: 200px;
+    height: 300px;
+  }
+
+  
+div.photo2__Image1, div.photo2__Image2, div.photo2__Image3, div.photo2__Image4, div.photo2__Image5, div.photo2__Image6, div.photo2__Image7, div.photo2__Image8{
+    width: 100%;
+    height: 250px;
+    margin-bottom: 1rem;
+}
+
+img.pics{
+    display: block;
+    width: 100%;
+    height: 100%;
+
+}
+
+div.photo2__Image1:hover, div.photo2__Image2:hover, div.photo2__Image3:hover, div.photo2__Image4:hover{
+    border: 1px solid purple;
+}
+
+div.photo2__Image5:hover, div.photo2__Image6:hover, div.photo2__Image7:hover, div.photo2__Image8:hover{
+    border: 1px solid purple;
+
+}
+p.red{
+    font-size: 12px;
+    margin-bottom: 0.8rem;
+    padding: 0 0.4rem 0 0.4rem;
+}
+
+div.blue{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 0.4rem 0 0.4rem;
+}
+
+
+div#photo4__1,  div#photo5__2,  div#photo6__3{
+    position: relative;
+
+}
+
+p.hot, p.canvaSale, p.saleperson{
+    position: absolute;
+    top: 15px;
+}
+
+p.canvaSale, p.saleperson{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 0.4rem;
+    font-size: 10px;
+}
+
+p.hot{
+    color: white;
+    background-color: red;
+    text-align: center;
+    padding: 0.4rem;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+
+p.black, span.firstPoint{
+    color:gray;
+    font-size: 10px;
+}
+
+p.dollarSign{
+    font-size: 10px;
+}
+
+p.dollarDouble{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    
+
+   
+    
+}
+
+span.firstPoint, span.secondPoint{
+    display: inline-block;
+    width: 45%;
+} 
+
+span.firstPoint{
+    margin-right: 0.32rem;
+}
+
+span.secondPoint{
+    font-size: 10px;
+    color: red;
+   
+}
+
+/* section 3 for zara */
+div.zara{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    margin-bottom: 4rem;
+    
+}
+
+div.zara__imagebox{
+    width: 100%;
+    height: 100%;
+}
+
+img.background__image{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+div.zara__word{
+    position: absolute;
+    width: 350px;
+    height: 150px;
+    top: 20px;
+    right: 10px;
+    
+}
+
+img.image__zara{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+div.statement{
+    position: absolute;
+    top: 85px;
+    right: 180px;
+}
+
+div.zara__white{
+    width: 60px;
+    height: 60px;
+    margin-bottom: 2.5rem;
+    
+   
+}
+
+img.zara__image2{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+p.evening{
+    color: white;
+    font-size: 11px;
+    line-height: 20px;
+    word-spacing: 4px;
+    margin-bottom: 2.5rem;
+}
+
+button{
+    padding: 0.4rem;
+    font-size: 10px;
+}
+
+/* section for best seller */
+div.best{
+    width: 100%;
+    background-color: white;
+}
+
+div.bestContainer{
+    width: 70%;
+    margin: 0 auto;
+}
+
+p.bestSeller{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+
+div.lastNav{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+p#showAll{
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    padding: 0.3rem 0.6rem;
+
+}
+
+div#lastNav{
+    font-size: 12px;
+}
+
+div.manyImages{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+
+div.photofive{
+    position: relative;
+}
+
+div.anchor{
+width: 20px;
+height: 30px;
+position: absolute;
+top: 100px;
+left: 10px;
+}
+
+img.anchorImage{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* section for follow product*/
+div.follow{
+    width: 100%;
+    background-color: #E5E5E5;
+}
+
+div.product{
+    width: 70%;
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+
+p.followProduct{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+div.imagedivision{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2.5rem;
+    
+}
+
+div.imagephoto{
+    width: 135px;
+    height: 135px;
+}
+
+
+img.photo11{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+div.subscribe{
+    width: 40%;
+    margin: 0 auto;
+
+}
+
+p.Sub__Letter{
+    font-size: 22px;
+    font-weight: bolder;
+    margin-bottom: 2rem;
+    word-spacing: 6px;
+}
+
+
+
+
+
+div.submit{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+
+input{
+    width: 76%;
+    background-color: #E5E5E5;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    
+    padding: 0px 0px 2px 6px;
+}
+
+
+
+input::placeholder{
+    font-size: 10px;
+    color: gray;
+   
+}
+
+p.submitButton{
+    border-bottom: 1px solid black;
+    text-transform: uppercase;
+    font-size: 10px;
+    text-align: center;
+    color: gray;
+    width: 20%;
+   
+    
+}
+
+
+/* footer */
+div.footer{
+    
+    width: 100%;
+    background-color: white;
+    
+}
+
+div.footerBox{
+    display: flex;
+    margin: 0 auto;
+    width: 70%;
+    padding-top: 5rem;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+
+
+
+div.forSocial{
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+    align-items: center;
+}
+
+div.polygon1, div.polygon2{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 200px;
+    bottom: 8px;
+
+
+}
+div.polygon2{
+    margin-left: 15px;
+   
+}
+
+ .imageBoX21{
+    position: absolute; 
+    left: 0px;
+    z-index: 5;
+}
+
+
+.imageBoX23{
+    position: absolute;
+    left: 9px;
+    z-index: 15;
+}
+
+.imageBoX24{
+    position: absolute;
+    left: 18px;
+    z-index: 10;
+}
+
+
+.imageBoX27{
+     position: absolute;
+    right:0px;
+    z-index: 5;
+}
+
+.imageBoX26{
+    position: absolute;
+    right:9px;
+    z-index: 10;
+}
+
+.imageBoX25{
+    position: absolute;
+    right:18px;
+    z-index: 15;
+
+}
+ 
+.imageBoX21, .imageBoX23, .imageBoX24, .imageBoX25, .imageBoX26, .imageBoX27{
+    width: 15px;
+    height: 15px;
+}
+
+
+.forCoral{
+font-size: 28px;
+margin-left: 12px;
+
+}
+
+img.picture15{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* section for socials */
+
+div.figure3{
+    width: 100%;
+   
+}
+
+div.socials__1{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    padding-bottom: 3.5rem;
+    
+}
+
+
+div.social__icon{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 20px;
+
+}
+
+p.lorem{
+    color: gray;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 30px;
+}
+
+div.twitter{
+    width: 15px;
+    height: 15px;
+} 
+
+img.face{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+div.neck{
+    margin-right: 20px;
+    position: absolute;
+    z-index: 60; 
+    left: 38%;
+}
+
+div.OurProduct{
+    margin-right:36px;
+    position: absolute;
+    z-index: 40; 
+    left: 60%;
+}
+
+div.contact{
+ position: absolute;
+z-index: 20;
+left: 82%;
+}
+
+div.neck, div.OurProduct, div.contact{
+margin-top: 10px;
+color:gray ;
+font-size: 12px;
+line-height: 28px;
+}
+
+/* bluebox */
+
+div.lastblue{
+    width: 100%;
+    background-color: black;
+}
+
+div.blueBox{
+    width: 70%;
+    padding: 0.6rem 0px 0.2rem 0px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div.box35{
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+
+p.scroll{
+    color: white;
+    font-size: 12px;
+}
+div.arrow{
+    width: 15px;
+    height: 15px;
+}
+
+img.imagearrow{
+    display: block;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+/* this is for top coral design */
+
+div#coralfor{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 30%;
+    margin-left: 150px;
+}
+
+div#polygon22, div#polygon11{
+    display: flex;
+    flex-direction: row;
+    width: 30px;
+    position: relative;
+    top: 10px;
+
+}
+div#middle{
+    font-size: 26px;
+}
+
+div#rectangle1, div#rectangle2, div#rectangle3, div#rectangle4, div#rectangle5, div#rectangle6{
+    width: 10px;
+    height: 10px;
+    position: absolute;
+}
+
+div#rectangle3{
+    right: 0px;
+    z-index: 10;
+}
+
+div#rectangle2{
+    right: 5px;
+    z-index: 30;
+}
+
+div#rectangle1{
+    right: 11px;
+    z-index: 50;
+}
+
+div#rectangle4{
+    left: 0px;
+    z-index: 70;
+}
+
+div#rectangle5{
+    left: 5px;
+    z-index: 80;
+}
+
+div#rectangle6{
+    left: 11px;
+    z-index: 90;
+}
+
+
+
+img#image__rectangle1, img#image__rectangle2, img#image__rectangle3, img#image__rectangle4, img#image__rectangle5, img#image__rectangle6{
+    display: block;
+    width: 100%;
+    height: 100%;
+
+
+}
+
+
+https://github.com/JusticeDGreat/e_commerce.git
+
+https://github.com/JusticeDGreat/e_commerce
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
